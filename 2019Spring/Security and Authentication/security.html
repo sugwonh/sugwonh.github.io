@@ -1,0 +1,272 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0049)http://www.cs.berkeley.edu/~culler/AIIT/AIIT.html -->
+<HTML><HEAD><TITLE>Advanced Computer Network</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 6.00.2900.3157" name=GENERATOR>
+<style type="text/css">
+<!--
+ol {
+	list-style-type: disc;
+}
+.style2 {font-size: 18px}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.style4 {
+	font-size: 16pt;
+	font-weight: bold;
+}
+.style5 {font-size: 16pt; font-weight: bold; font-family: 'Times New Roman'; }
+-->
+</style>
+</HEAD>
+<BODY lang=EN-US vLink=purple link=blue>
+<TABLE class=header-part1 cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY></TBODY></TABLE>
+<table width="821" border="0">
+  <tr>
+    <td width="815"><h1 style="TEXT-ALIGN: center"><big>Security and Authentication  </big>(Graduate)</h1>
+      <center>
+          <span class="style2"> 2019</span>
+          <span class="style2">Spring</span>
+          <p></p>
+          <div align="left">
+            <p style="FONT-SIZE: 14pt">Lecturer: Sugwon Hong, Professor<br>
+              Department of Computer Engineering <br>
+              office: 5723 <br>
+              email: swhong@mju.ac.kr <br>
+            tel: 6777                    </div>
+      </center>
+      <h2 class="style5">Hour and Classroom </h2>
+      <p>- course hour: Tue 14:00-16:50 <br>
+      - classroom: 5401      </p>
+      <h2 class="style4"><span 
+style="FONT-FAMILY: 'Times New Roman'">Goals
+        <O:P></O:P>
+      </span> </h2>
+      <div align="justify">
+        <p>The title of this course is somewhat misleading, since this course will not deal with only special topics of security and authentication. The goal of this course is to provide &quot;comprehensive&quot; understanding of network security  to the students who already have  basic knowledge of networking technologies and protocols, and/or may have taken the undergraduate-level computer/network security course. The depth of the course will be a little deeper than the undergraduate course, but the width of this course will be wider than the one you might have taken previously.</p>
+        <p class="style4"><span style="FONT-FAMILY: 'Times New Roman'">Contents
+            <O:P></O:P>
+        </span></p>
+        <p>This course will cover the following four major themes, and other special topics. </p>
+      </div>
+      <ol>
+        <li> Crypto basics </li>
+        <li>Authentication</li>
+        <li>Security protocols</li>
+        <li>Other current security topics </li>
+      </ol>
+      <p>We will follow these topics using mainly the materials I will provide. And we will also select and use some other resourses to study
+      the other topics.  </p>
+      <!-- Document End -->
+      <h2>Prerequisites</h2>
+      Basic knowledge of networking  is highly recommended. 
+      <h2>Testbook and lecture notes </h2>
+      <p align="justify">I will prepare and post lecture notes on the home page. Sometimes I will use the powerpoints which are given by varisous authors as an aid to preparing lecture notes,  and add some stuff if necessary. The following books are most frequently used for this lecture. </p>
+      <blockquote>
+        <p>Understanding Cryptography, Christof Paar and Jan Pelzl, Springer<br>
+        Information Security: Principles and Practice, 2nd ed., Mark Stamp, Wiley<br>
+          Cryptograhy and Network Security: Principles and Practice, 7th ed., Willian Stallings, Pearson </p>
+      </blockquote>
+	  <h2>Homeworks</h2>
+	  <p align="justify">Finishing each subject some homework problems will be given for helping you to review, exercise, and understand further the contents which we cover in the class. .</p>
+	  
+	  <h2>Presentation</h2>
+      <p align="justify">During the course each student will given a chance to study and present a topic in the class. The  topics and papers will be notified during the course. The students will be given at least two weeks to prepare for the presentation and will deliver the contents for about 20 minutes. </p>
+      <h2>Course Outline</h2>
+      <p>The following schedle is tentative, and will be subject to change if necessary. </p>
+      <table width="799" height="432" border="1">
+        <tr>
+          <td width="37" height="25" bgcolor="#66FF33"><div align="center">week</div></td>
+          <td width="282" bgcolor="#66FF33"><div align="center">textbook topics and lecture notes </div></td>
+          <td width="229" bgcolor="#66FF33"><div align="center">lecture notes </div></td>
+          <td width="93" bgcolor="#66FF33">homeworks</td>
+          <td width="124" bgcolor="#66FF33"><div align="center">reading</div></td>
+        </tr>
+        <tr>
+          <td bgcolor="#99CC66"><div align="center">1</div></td>
+          <td bgcolor="#99CC66"><p>Intro<br>
+          <br>
+            </p></td>
+          <td bgcolor="#99CC66"><p>[<a href="Intro.pdf">Intro.pdf</a>] </p>
+          </td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+        </tr>
+        <tr>
+          <td bgcolor="#99CC66"><div align="center">2</div></td>
+          <td bgcolor="#99CC66"><p>Crypto Basics          
+            <br>
+            - Symmetric key crypto <br>
+          </td>
+          <td bgcolor="#99CC66"><p><a href="Intro to crypto.pdf">[intro to cyrpo</a>]</p>
+            <p>[<a href="Stream cipher.pdf">stream cipher</a>]</p>
+            <p><a href="Block cipher.pdf">[block cipher</a>]   </p></td>
+          <td bgcolor="#99CC66">[<a href="Homework 1.pdf">hw1</a>]</td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+        </tr>
+        <tr>
+          <td bgcolor="#99CC66"><div align="center">3</div></td>
+          <td bgcolor="#99CC66"><p>- block cipher operation modes </p>
+            <p>Modulo Arithmatic</p>
+            <p>Public key crypto<br>
+              - RSA<br>
+              <br>
+            </p></td>
+          <td bgcolor="#99CC66"><p>[<a href="modes of operation.pdf">opeation modes</a>]</p>
+            <p>[<a href="modular arithmetic.pdf">modulo arithmatic</a>]</p>
+            <p>[<a href="public key(RSA).pdf">RSA</a>] </p>
+            <p><a href="security/ECC_sup.pdf"></p></td>
+          <td bgcolor="#99CC66"><p>[<a href="Homework 2.pdf">hw2</a>]</p>
+            <p><a href="security/ECC_sup.pdf"></a></p></td>
+          <td bgcolor="#99CC66"><p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td bgcolor="#99CC66"><div align="center">4</div></td>
+          <td bgcolor="#99CC66"><p>- Discrete Logarithm Crypto </p>
+            <p>- Elliptic Curve Crypto </p>
+          </td>
+          <td bgcolor="#99CC66"><p>[<a href="public key(DL).pdf">DLP</a>]</p>
+            <p>[<a href="public key(ECC).pdf">ECC</a>]</p>
+          </td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+        </tr>
+        <tr>
+          <td bgcolor="#99CC66"><div align="center">5</div></td>
+          <td bgcolor="#99CC66"><p>Digital Signatures<br>
+            PKI</p>
+            <p>Crypto hash functions <br>
+            </p></td>
+          <td bgcolor="#99CC66"><p><a href="security/Crypto Basics-hash-MAC.pdf">[</a><a href="public key(digital signature).pdf">public key-DS</a><a href="security/Crypto Basics-hash-MAC.pdf">]</a></p>
+          <p>[<a href="public key(PKI).pdf">public key-PKI</a>]</p>
+          <p>[<a href="hash function.pdf">hash function</a>] </p></td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+          <td bgcolor="#99CC66"><p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td height="25" bgcolor="#99CC66"><div align="center">6</div></td>
+          <td bgcolor="#99CC66"><p>Integrity &amp; Authentication(MAC) </p>
+          <p>Authenticated Encryption </p></td>
+          <td bgcolor="#99CC66"><p>[<a href="MAC.pdf">MAC</a>]</p>
+          <p>[<a href="authenticated encryption.pdf">authenticated encryp</a>] </p></td>
+          <td bgcolor="#99CC66"><a href="security/Homework 2.docx">[</a><a href="Homework 3.pdf">hw3</a><a href="security/Homework 2.docx">]</a></td>
+          <td bgcolor="#99CC66"><p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td height="33" bgcolor="#99CC66"><div align="center">7</div></td>
+          <td bgcolor="#99CC66"><p>Key Establishment </p>
+            <p>AES key wrap, Random number generatoin <br>
+and other issues </p></td>
+          <td bgcolor="#99CC66"><p>[<a href="key establishment.pdf">kep establishment and others</a>] </p></td>
+          <td bgcolor="#99CC66"><p><a href="security/HW1 sol.pdf"></a></p>
+          </td>
+          <td bgcolor="#99CC66"><p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td bgcolor="#99CC66"><div align="center">8</div></td>
+          <td bgcolor="#99CC66"><p>Midterm exam </p></td>
+          <td bgcolor="#99CC66"><a href="security/midterm.pdf"></a></td>
+          <td bgcolor="#99CC66"><a href="security/midterm.pdf">[</a><a href="HW solution.pdf">hw solutions</a><a href="security/midterm.pdf">] </a></td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+        </tr>
+        <tr>
+          <td bgcolor="#99CC66"><div align="center">9</div></td>
+          <td bgcolor="#99CC66"><p>Security Protocol</p>
+            <p>Entity Authentication <br>
+            </p></td>
+          <td bgcolor="#99CC66"><p><a href="security protocol.pdf">[security protocol</a>]</p>
+            <p>[<a href="entity authentication.pdf">entitity authentication protocol</a>]  </p></td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+        </tr>
+        <tr>
+          <td bgcolor="#99CC66"><div align="center">10</div></td>
+          <td bgcolor="#99CC66"><p>Identity and Access Management Architecture </p>
+            <p>Transport-layer Security(Web security)-SSL<br>
+            </p></td>
+          <td bgcolor="#99CC66"><p>[<a href="IAM architecture.pdf">IAM architecture </a>]</p>
+            <p>[<a href="TLS.pdf">TLS</a>]</p></td>
+          <td bgcolor="#99CC66">[<a href="Project1.docx">project1</a>]</td>
+          <td bgcolor="#99CC66"><p>&nbsp;</p>
+          </td>
+        </tr>
+        <tr>
+          <td height="29" bgcolor="#99CC66"><div align="center">11</div></td>
+          <td bgcolor="#99CC66"><p>Wireless Network Security </p>
+            <p>Network-layer Security -IPSec</p></td>
+          <td bgcolor="#99CC66"><p>[<a href="wireless LAN security.pdf">wireless LAN security</a>]</p>
+          <p>[<a href="IPSec.pdf">IPsec</a>]</p></td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+        </tr>
+        <tr>
+          <td bgcolor="#99CC66"><div align="center">12</div></td>
+          <td bgcolor="#99CC66"><p>IoT Security </p>
+          </td>
+          <td bgcolor="#99CC66"><p>[<a href="IAM architecture-suppliment.pdf">IAM supplement</a>] </p>          </td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+          <td bgcolor="#99CC66"><p>&nbsp;</p>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#99CC66"><div align="center">13</div></td>
+          <td bgcolor="#99CC66"><p>Cloud Security </p></td>
+          <td bgcolor="#99CC66"><p>&nbsp;</p>
+          </td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+        </tr>
+        <tr>
+          <td bgcolor="#99CC66"><div align="center">14</div></td>
+          <td bgcolor="#99CC66"><p>Web Service  Security </p></td>
+          <td bgcolor="#99CC66">[<a href="web service.pdf">intro to WS</a>] </td>
+          <td bgcolor="#99CC66"><a href="security/problem set.docx"></a> </td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+        </tr>
+        <tr>
+          <td bgcolor="#99CC66"><div align="center">15</div></td>
+          <td bgcolor="#99CC66"><p>Blockchain</p></td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+          <td bgcolor="#99CC66"><p>&nbsp;</p>
+          </td>
+        </tr>
+        <tr>
+          <td height="27" bgcolor="#99CC66"><div align="center">16</div></td>
+          <td bgcolor="#99CC66">Final exam  </td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+          <td bgcolor="#99CC66">&nbsp;</td>
+        </tr>
+      </table>
+      <h2>
+        <DIV>
+        <!-- Document End -->
+        <!-- Document End -->
+      </h2>
+      <h3>&nbsp;</h3>
+      <h2>Grading</h2>
+      <ol>
+        <li>homeworks  20% </li>
+        <li>midterm exam          30%</li>
+        <li>final exam  30%</li>
+        <li>presentation 20% </li>
+      </ol></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+ <BR>
+</BODY></HTML>
